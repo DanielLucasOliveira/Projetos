@@ -1,0 +1,47 @@
+:root{
+    /*cores*/
+
+    --color-1: #fff;
+    --color-2: #141414;
+    
+    --sty-1: #f03018 !important;
+    --sty-2: #06aa48 !important;
+    --sty-3: #ec7d00 !important;
+    --sty-4: #fb0234 !important;
+    --sty-5: #333333 !important;
+    --sty-6: #0669de !important;
+    --sty-7: #777777 !important;
+    --sty-8: #c4170c !important;
+    --sty-9: #fff !important;
+    
+    /*fontes*/
+
+    --font: 'Open Sans', sans-serif!important;
+    --font2: 'opensans-bold', sans-serif!important;
+
+    /* Sizes */
+
+    --text: 14px;
+    --text-md: 16px;
+    --ti-lg: 56px;
+    --tit-md: 24px;
+    --tit-sm: 18px;
+}    
+
+body{
+    font-family: var(--font);
+    font-size: var(--text);
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-1);
+}
+
+.sty-1{color: var(--sty-1); }
+.sty-2{color: var(--sty-2); }
+.sty-3{color: var(--sty-3); }
+.sty-4{color: var(--sty-4); }
+.sty-5{color: var(--sty-5); }
+.sty-6{color: var(--sty-6); }
+.sty-7{color: var(--sty-7); }
+.sty-8{color: var(--sty-8); }
+.sty-9{color: var(--sty-9); }
